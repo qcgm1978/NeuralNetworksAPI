@@ -4,4 +4,7 @@ Neural Networks API
 
 ## Reference Link:
 
-[The Android Neural Networks API NNAPI is an Android C API designed for running computationally intensive operations for machine learning on mobile devices](https://developer.android.com/ndk/guides/neuralnetworks)
+[An integrated brain-machine interface platform
+with thousands of channels](https://www.biorxiv.org/content/biorxiv/early/2019/07/17/703801.full.pdf)
+
+## API(operations)
