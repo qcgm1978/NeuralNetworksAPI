@@ -1,0 +1,43 @@
+{
+  "name": "NeuralNetworksAPI",
+  "version": "1.0.0",
+  "description": "Neural Networks API",
+  "main": "index.js",
+  "jest": {
+    "globals": {
+      "ts-jest": {
+        "diagnostics": {
+          "pathRegex": "jest/.+\\.(js|ts)$"
+        }
+      }
+    },
+    "testURL": "http://localhost",
+    "setupFilesAfterEnv": [
+      "jest-chain"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qcgm1978/NeuralNetworksAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qcgm1978/NeuralNetworksAPI/issues"
+  },
+  "homepage": "https://github.com/qcgm1978/NeuralNetworksAPI#readme",
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "jest-chain": "^1.1.2"
+  }
+}
