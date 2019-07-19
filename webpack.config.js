@@ -9,24 +9,15 @@ const PROD = process.env.NODE_ENV === "production";
 
 let plugins = [];
 
-// PROD
-//   ? [
-//       plugins.push(
-//         new webpack.optimize.UglifyJsPlugin({
-//           compress: { warnings: false }
-//         })
-//       )
-//     ]
-//   : "";
-
 module.exports = {
+  mode: "none",
   entry: path.resolve(__dirname, config.main),
   devtool: "source-map",
   output: {
     library: process.env.NAME,
     libraryTarget: process.env.TARGET,
     path: __dirname,
-    filename: PROD ? "build/ghost.min.js" : "build/ghost.js"
+    filename: PROD ? "build/BMI.min.js" : "build/BMI.js"
   },
   module: {
     rules: [

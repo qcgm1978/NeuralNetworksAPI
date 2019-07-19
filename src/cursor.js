@@ -11,6 +11,6 @@ class cursor {
     };
   }
 }
-module.exports = selector => {
-  return new cursor(selector);
+module.exports = _ => {
+  return new cursor(_);
 };
