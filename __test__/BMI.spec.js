@@ -1,3 +1,4 @@
+import ghost from "../src/App.es6";
 it(`Brain-machine interfaces(BMIs)`, () => {
   const packages = 3072,
     area = [23, 18.5, 2];
