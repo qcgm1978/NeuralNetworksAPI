@@ -1,4 +1,4 @@
-import ghost from "../src/App.es6";
+// import ghost from "../src/App.es6";
 it(`Brain-machine interfaces(BMIs)`, () => {
   const packages = 3072,
     area = [23, 18.5, 2];
@@ -6,5 +6,5 @@ it(`Brain-machine interfaces(BMIs)`, () => {
   expect(+pack_per_mm.toFixed(1)).toBe(3.6);
 });
 it(``, () => {
-  expect(ghost).toBeInstanceOf(Function);
+  // expect(ghost).toBeInstanceOf(Function);
 });

@@ -2,7 +2,7 @@
   "name": "neural-networks-api",
   "version": "1.0.0",
   "description": "Neural Networks API",
-  "main": "src/App.es6",
+  "main": "src/index.js",
   "jest": {
     "globals": {
       "ts-jest": {
@@ -23,8 +23,10 @@
     ]
   },
   "scripts": {
+    "start": "NODE_ENV=development webpack --watch",
     "test": "jest --watch",
-    "build": "webpack && NODE_ENV=development webpack"
+    "build": "webpack && NODE_ENV=development webpack",
+    "dev": "webpack-dev-server --inline --hot"
   },
   "repository": {
     "type": "git",
