@@ -25,3 +25,7 @@ speech synthesizers
 npm i;
 npm test;
 ```
+
+## Project Architecture
+
+[Build a Reusable JavaScript Library](https://www.codementor.io/chimeremezeukah/build-a-reusable-javascript-library-du1086d7l)

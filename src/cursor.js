@@ -9,10 +9,6 @@ class cursor {
       x: 0,
       y: 0
     };
-    if (content !== null) {
-      this.selector.innerHTML = content;
-    }
-    return this.selector.innerHTML;
   }
 }
 module.exports = selector => {

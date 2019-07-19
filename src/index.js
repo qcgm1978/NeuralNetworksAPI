@@ -1,5 +1,5 @@
 "use strict";
-import ghost from "./App.es6";
+import roboticLimbs from "./robotic-limbs";
 import cursor from "./cursor";
 
-export { ghost, cursor };
+export { roboticLimbs, cursor };
